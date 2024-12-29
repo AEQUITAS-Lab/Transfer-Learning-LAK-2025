@@ -1,0 +1,17 @@
+Feature Name,Description,Type,Nullable,Min,Max
+Units,Credit units the student enrolled in this term,Float,No,0,100
+Units Failed,Percentage of enrolled units the student failed,Float,No,0,100
+Units Incomplete,Percentage of enrolled units the student earned an incomplete for,Float,No,0,100
+Units Withdrawn,Percentage of enrolled units the student withdrew from,Float,No,0,100
+Cumulative GPA,Cumulative GPA from all known tertiary education sources,Float,No,0,4
+Age,Age at course start,Integer,Yes,0,150
+GPA Mean,The term-level GPA average weighted by units,Float,No,0,4
+GPA Stddev,The term-weighted GPA stddev,Float,No,0,inf
+GPA z-score,The weighted average z-score of the student in their courses,Float,No,              -inf,inf
+GPA z-score stddev,The weighted stddev z-score of the student in their courses,Float,No,0,inf
+Sex,Self-declared sex,Categorical,Yes,,
+Ethnicity,Self-declared ethnicity,Categorical,Yes,,
+URM Status,Institutionally-assigned indicator for underrepresented minority status,Categorical,No,,
+Major 1 CIP Code,2-digit CIP code for first major,Categorical,Yes,1,61
+Year,The current year,Integer,No,2013,2019
+Retention,Indicator for whether the student was enrolled in following fall term,Binary,No,0,1
