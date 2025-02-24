@@ -11,9 +11,7 @@ from sklearn.preprocessing import StandardScaler
 from imblearn.over_sampling import SMOTE
 
 # Model features
-cols = ['units', 'units_failed', 'units_incompleted', 'units_withdrawn', 'gpa_cumulative', 'age', 'gpa_avg', 
-        'gpa_stddev', 'gpa_zscore_avg', 'gpa_zscore_stddev', 'STDNT_FEMALE', 'STDNT_ASIAN_IND', 
-        'STDNT_BLACK_IND', 'STDNT_HSPNC_IND', 'STDNT_NTV_AMRCN_HWIAN_IND', 'STDNT_ETHNC_NAN', 'urm_status', 'cip2_major_1']
+cols = ['model_features']
 
 # Models
 class RetentionFeatureExtractor(nn.Module):
