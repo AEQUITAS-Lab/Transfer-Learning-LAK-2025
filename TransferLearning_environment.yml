@@ -1,0 +1,18 @@
+name: TransferLearning
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip
+  - pip:
+    - imbalanced-learn==0.12.3
+    - pyarrow==17.0.0
